@@ -3,7 +3,9 @@ pipeline {
   stages {
     stage('Restricted Correction Policy') {
       steps {
-          echo "Sam"
+          sh """
+          echo "sam"
+          """
       }
     }
 }
